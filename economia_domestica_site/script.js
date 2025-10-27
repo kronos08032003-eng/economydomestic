@@ -83,14 +83,14 @@ function drawPieChart(data){
   });
 }
 
-// Gráfico de barras SVG (dados fictícios por região)
+// Gráfico de barras SVG (dados  por região)
 function drawBarChart(){
   const data = [
-    {region:'Norte', value: 1200},
-    {region:'Nordeste', value: 1300},
-    {region:'Centro-Oeste', value: 1100},
-    {region:'Sudeste', value: 1700},
-    {region:'Sul', value: 1400}
+    {region:'Norte', value: 1.579},
+    {region:'Nordeste', value:  1.309 },
+    {region:'Centro-Oeste', value: 2.477},
+    {region:'Sudeste', value: 2.464},
+    {region:'Sul', value: 2.327}
   ];
   const svg = document.getElementById('barChart');
   const w = 600, h = 260, pad = 40;

@@ -35,7 +35,7 @@ button{background:var(--accent);color:white;padding:10px 14px;border-radius:8px;
 button[type=button]{background:#ef4444}
 .results p{margin:6px 0}
 .chart-area{display:flex;justify-content:center;align-items:center;padding-top:8px}
-.advice{margin-top:8px;padding:10px;border-left:4px solid #fde68a;background:#fffaf0;border-radius:6px;color:#92400e}
+.advice{margin-top:8px;padding:10px;border-left:4px;background:#fffaf0;border-radius:6px;color:#92400e}
 .tips{display:grid;grid-template-columns:1fr;gap:8px;list-style:none;padding-left:0}
 .tip-cards{display:flex;gap:12px;margin-top:12px}
 .tip-cards article{flex:1;padding:10px;border-radius:8px;background:linear-gradient(180deg,#ffffff,#f8fafc);box-shadow:0 4px 12px rgba(2,6,23,0.04)}

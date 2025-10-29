@@ -129,7 +129,7 @@ function drawBarChart(){
   });
 }
 
-// Events
+// Eventos
 document.getElementById('calcBtn').addEventListener('click', calc);
 document.getElementById('resetBtn').addEventListener('click', ()=>{
   document.getElementById('income').value = 3000;
